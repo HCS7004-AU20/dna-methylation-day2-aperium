@@ -23,7 +23,7 @@ Repeat the above command for each flower and leaf bismark.cov file.
 Install needed packages in R. To do this, start an instance of R.
 
 ```
-module load R/0.4.2-gnu9.1
+module load R/4.0.2-gnu9.1
 R
 install.packages("BiocManager")
 BiocManager::install("DSS")
